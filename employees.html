@@ -1,0 +1,52 @@
+<!doctype html>
+<html>
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width" />
+    <title>Products</title>
+    <link href="style.css" rel="stylesheet" type="text/css" />
+  </head>
+  <body>
+    <main>
+      <nav>
+        <div class="nav-inner">
+          <div class="left">
+            <div class="logo">
+              <img src="textures/Sqrl_Print_Logo_NoText.png" alt="SQRL Printing Logo">
+            </div>
+
+            <p class="name">Employees page</p>
+
+            <a href="index.html">Back to customer</a>
+          </div>
+        </div>
+      </nav>
+      <!-- password screen -->
+
+      <div id="password-screen">
+        <div class="password-box">
+          <h2>Hold up, are you really an employee?</h2>
+          <input type="password" id="password-input" placeholder="Password" />
+          <button onclick="checkPassword()">Submit</button>
+          <p id="error-message"></p>
+        </div>
+      </div>
+
+      <!-- Main page content -->
+      
+      <div id="main-content" style="display: none;">
+        <h1>Employees Page</h1>
+        <div class="embed">
+
+          <h2>printing inventory</h2>
+          <iframe src="https://docs.google.com/spreadsheets/d/1yCwY_bJv3EajK1X44esUYYhEZsj21otihi3f1hANyMo/edit?gid=0#gid=0" width="1000px" height="790px" frameBorder="0" style="border: 0;"></iframe><br>Brought to you by <a href="" target="_blank"></a>
+        </div>
+      </div>
+
+      
+    </main>
+  
+  </body>
+  <script src="employeessk.js"></script>
+</html>
+
